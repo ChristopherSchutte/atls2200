@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 In Class Code</title>
+</head>
+<body>
+    <!--Working with block level tags on this like: div, h1, h2, p, and section **all start on their own lines**-->
+    <!--Inline tags like br, a, em, b, u-->
+
+    <!-- div, stands for division, are used to surround content within the tags-->
+    <!-- section is the other big one, different than the div because it implies that everything within that tag will be related in some way-->
+
+    <div style="background-color:red">
+        <h1>This is a div heading</h1>
+        <p>This is a div!</p>
+    </div>
+
+    <section style="color:purple">
+        <h1>This is a section heading</h1>
+        <p>This is a section!</p>
+    </section>
+
+    <!-- STARTER CODE FOR ASSIGNMENT 3-->
+
+    <div>
+        <h2 style="text-align:center">Challenge 2: Build a Chessboard</h2>
+        <style type="text/css">
+            table tr td {
+                width: 60px;
+                height: 60px;
+                border: solid #000 1px;
+                color: grey;
+                font-size: 50px;
+                text-align: center;
+            }
+            table tr:nth-child(odd) td:nth-child(even) {
+                background: #000;
+            }
+            table tr:nth-child(even) td:nth-child(odd) {
+                background: #000;
+            }
+        </style>
+            <table>
+                <tr>
+                    <td>&#9820;</td>
+                    <td>&#9816;</td>
+                    <td>&#9815;</td>
+                    <td>&#9813;</td>
+                    <td>&#9812;</td>
+                    <td>&#9815;</td>
+                    <td>&#9816;</td>
+                    <td>&#9820;</td>
+                </tr>
+                    <tr>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                    <td>&#9817;</td>
+                </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    <tr>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                    <td>&#9823;</td>
+                </tr>
+                    <tr>
+                    <td>&#9820;</td>
+                    <td>&#9822;</td>
+                    <td>&#9821;</td>
+                    <td>&#9819;</td>
+                    <td>&#9818;</td>
+                    <td>&#9821;</td>
+                    <td>&#9822;</td>
+                    <td>&#9820;</td>
+                </tr>
+            </table>
+    </div>
+    <br>
+
+    <div>
+        <h2 style="text-align:center;">Challenge 3: Create a Form</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+
+            <label for="mname">Middle name:</label><br>
+            <input type="text" id="mname" name="mname" value="Joseph"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+    <div>
+        <style type="text/css">
+        
+        
+        </style>
+    </div>
+</body>
+</html>
