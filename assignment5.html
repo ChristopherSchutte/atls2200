@@ -1,292 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>ATLS 2200</title>
-    <link rel="shortcut icon" type="image/jpg" href="Assets2200/Favicon.png"/>
+  <title>ATLS 2200</title>
+  <link rel="shortcut icon" type="image/jpg" href="Assets2200/Favicon.png"/>
 
-    <style>
+  <style>
       ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
       }
-      
+
       li {
-        float: left;
+          float: left;
       }
-      
+
       li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
       }
-      
+
       li a:hover:not(.active) {
-        background-color: #111;
+          background-color: #111;
       }
-      
+
       .active {
-        background-color: #04AA6D;
+          background-color: #04aa6d;
       }
 
-        table tr td {
-            width: 60px;
-            height: 60px;
-            border: solid #000 1px;
-            color: grey;
-            font-size: 50px;
-            text-align: center;
-        }
-        table tr:nth-child(odd) td:nth-child(even) {
-            background: #000;
-        }
-        table tr:nth-child(even) td:nth-child(odd) {
-            background: #000;
-        }
-
-      .googleBox{
-        width: 100%;
-        max-width: 750px;
-        background-color:#202124;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 75px;
-        padding-right: 75px;
-        padding-top: 10px;
-        padding-bottom: 25px;
+      table tr td {
+          width: 60px;
+          height: 60px;
+          border: solid #000 1px;
+          color: grey;
+          font-size: 50px;
+          text-align: center;
+      }
+      table tr:nth-child(odd) td:nth-child(even) {
+          background: #000;
+      }
+      table tr:nth-child(even) td:nth-child(odd) {
+          background: #000;
       }
 
-      #wrap{
-        width: 100%;
-        max-width: 750px;
+      .googleBox {
+          width: 100%;
+          max-width: 750px;
+          background-color: #202124;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 75px;
+          padding-right: 75px;
+          padding-top: 10px;
+          padding-bottom: 25px;
+      }
+
+      #wrap {
+          width: 100%;
+          max-width: 750px;
       }
 
       #left_col {
-        float:left;
-        width: 35%;
-        max-width: 375px;
-        padding-left: 75px;
-        padding-bottom: 20px;
+          float: left;
+          width: 35%;
+          max-width: 375px;
+          padding-left: 75px;
+          padding-bottom: 20px;
       }
       #right_col {
-        float:right;
-        width: 35%;
-        max-width: 375px;
-        padding-right: 75px;
-        padding-bottom: 120px;
+          float: right;
+          width: 35%;
+          max-width: 375px;
+          padding-right: 75px;
+          padding-bottom: 120px;
       }
 
-      .gPara{
-        color: #BCBFC2;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 14px;
+      .gPara {
+          color: #bcbfc2;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-size: 14px;
       }
 
-      .gGreyer{
-        color: #8C8F95;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 14px;
+      .gGreyer {
+          color: #8c8f95;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-size: 14px;
       }
 
-      .gTitle{
-        color: #94B5F5;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: normal;
-        font-size: 20px;
+      .gTitle {
+          color: #94b5f5;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-size: 20px;
       }
 
-      a:link{
-        color: #94B5F5;
+      a:link {
+          color: #94b5f5;
       }
 
-      a:visited{
-        color: #B889ED;
+      a:visited {
+          color: #b889ed;
       }
-</style>
+  </style>
+
 <body>
   <ul>
-    <li><a href="./index.html">Home (Assignment 2)</a></li>
-    <li><a href="./assignment1.html">Assignment 1</a></li>
-    <li><a href="./assignment3.html">Assignment 3</a></li>
-    <li><a href="./assignment4.html">Assignment 4</a></li>
-    <li><a class="active" href="./assignment5.html">Assignment 5</a></li>
+      <li><a href="./index.html">Home (Assignment 2)</a></li>
+      <li><a href="./assignment1.html">Assignment 1</a></li>
+      <li><a href="./assignment3.html">Assignment 3</a></li>
+      <li><a href="./assignment4.html">Assignment 4</a></li>
+      <li><a class="active" href="./assignment5.html">Assignment 5</a></li>
   </ul>
 
   <div>
-    <h2 style="text-align:center">Challenge 2: Build a Chessboard</h2>
-        <table>
-            <tr>
-                <td>&#9820;</td>
-                <td>&#9816;</td>
-                <td>&#9815;</td>
-                <td>&#9813;</td>
-                <td>&#9812;</td>
-                <td>&#9815;</td>
-                <td>&#9816;</td>
-                <td>&#9820;</td>
-            </tr>
-                <tr>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-                <td>&#9817;</td>
-            </tr>
-                <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-                <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-                <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-                <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-                <tr>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-                <td>&#9823;</td>
-            </tr>
-                <tr>
-                <td>&#9820;</td>
-                <td>&#9822;</td>
-                <td>&#9821;</td>
-                <td>&#9819;</td>
-                <td>&#9818;</td>
-                <td>&#9821;</td>
-                <td>&#9822;</td>
-                <td>&#9820;</td>
-            </tr>
-        </table>
-</div>
-<br>
+      <h2 style="text-align: center;">Challenge 2: Build a Chessboard</h2>
+      <table>
+          <tr>
+              <td>&#9820;</td>
+              <td>&#9816;</td>
+              <td>&#9815;</td>
+              <td>&#9813;</td>
+              <td>&#9812;</td>
+              <td>&#9815;</td>
+              <td>&#9816;</td>
+              <td>&#9820;</td>
+          </tr>
+          <tr>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+              <td>&#9817;</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+              <td>&#9823;</td>
+          </tr>
+          <tr>
+              <td>&#9820;</td>
+              <td>&#9822;</td>
+              <td>&#9821;</td>
+              <td>&#9819;</td>
+              <td>&#9818;</td>
+              <td>&#9821;</td>
+              <td>&#9822;</td>
+              <td>&#9820;</td>
+          </tr>
+      </table>
+  </div>
+  <br />
 
-<div>
-    <h2 style="text-align:center;">Challenge 3: Create a Form *Fixed*</h2>
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-
-        <label for="mname">Middle name:</label><br>
-        <input type="radio" id="mname" name="mname" value="Joseph"><br>
-
-        <label for="lname">Last name:</label><br>
-        <input type="checkbox" id="lname" name="lname" value="Doe"><br><br>
-
-        <input type="submit" value="Submit">
-      </form>
-</div>
-
-<div>
-  <h2 style="text-align:center;">Challenge 4: Replicate Google Search Page</h2>
-
-  <section class="googleBox" >
-    <p class="gGreyer">About 3,400,000,000 results (0.86 seconds)</p><br>
-
-    <p class="gPara">https://www.colorado.edu<span class="gGreyer"> > atlas</span></p>
-    <p class="gTitle"><a href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a></p>
-    <p class="gPara"><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
-
-
-    <section id="wrap">
-      <section id="left_col">
-          <p class="gTitle"><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a></p>
-          <p class="gPara">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
-
-          <p class="gTitle"><a href="https://www.colorado.edu/atlas/academics">Academics</a></p>
-          <p class="gPara">Granted through the College of Engineering and Applied ...</p>
-
-          <p class="gTitle"><a href="https://www.colorado.edu/atlas/faculty">Faculty</a></p>
-          <p class="gPara">Lecturer, co-chair Board of Advisors &#9679; DESIGN, AR/VR ...</p>
-
-          <p class="gPara"><a href="https://www.google.com/search?q=Atlas+Institute+site:colorado.edu&sa=X&ved=2ahUKEwjy14Ly_f31AhWZITQIHY8vDecQrAN6BAgjEAE&biw=814&bih=969&dpr=2">More results from colorado.edu >></a></p>
-      </section>
-
-      <section id="right_col">
-        <p class="gTitle"><a href="https://www.colorado.edu/atlas/about-atlas">About</a></p>
-        <p class="gPara">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
-
-        <p class="gTitle"><a href="https://www.colorado.edu/atlas/">Undergraduate Programs</a></p>
-        <p class="gPara">Awarded through the College of Engineering and Applied ...</p>
-
-        <p class="gTitle"><a href="https://www.colorado.edu/atlas/research-creative">Research + Creative</a></p>
-        <p class="gPara">Check out ATLAS Research Showcase 2020.</p>
-      </section>
-    </section>
-
-    <p class="gPara">https://www.colorado.edu<span class="gGreyer"> > innovate > atlas-institute</span></p>
-    <p class="gTitle"><a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - University of ...</a></p>
-    <p class="gPara">Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members to explore, innovate, create and design well ...</p><br>
-
-    <p class="gPara">https://www.linkedin.com<span class="gGreyer"> > school > atlas-cu-boulder</span></p>
-    <p class="gTitle"><a href="https://www.linkedin.com/school/atlas-cu-boulder/">ATLAS Institute at CU Boulder Employees, Location, Alumni</a></p>
-    <p class="gPara">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality. &#9679; <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p><br>
-
-    <p class="gPara">https://www.typemoon.fandom.com<span class="gGreyer"> > wiki > Atlas</span></p>
-    <p class="gTitle"><a href="https://typemoon.fandom.com/wiki/Atlas">ATLAS Institute | TYPE-MOON Wiki | Fandom</a></p>
-    <p class="gPara">It is an <strong>institute</strong> focused on the study and development of alchemy, but its members broke off from the mainstream modern practice of alchemy that originated in ...</p>
-    <p class="gPara"><a href="https://www.colorado.edu">External Relationships &#9679; Alchemist of Atlas &#9679; Activities &#9679; Headquarters</a></p><br>
-
-    <p class="gPara">https://www.internationalaffairshouse.org</p>
-    <p class="gTitle"><a href="https://www.internationalaffairshouse.org/">ATLAS Institute for International Affairs: Home</a></p>
-    <p class="gPara"><strong>Atlas Institute</strong> for International Affairs - The Harmony of Opposite Tensions. ...<strong>Atlas Institute</strong>. The World's Leading Open-Access Think-Tank and Publisher ...</p>
-
-  </section>
-  
   <div>
-    <h2 style="text-align:center;">Challenge 5: Accessibility Statement</h2>
+      <h2 style="text-align: center;">Challenge 3: Create a Form *Fixed*</h2>
+      <form>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" value="John Doe" /><br />
 
-    
-</div>
+          <label for="clickButton">Click Me:</label><br />
+          <input type="radio" id="clickButton" name="clickButton" /><br />
 
+          <label for="checkBox">Click Me Too:</label><br />
+          <input type="checkBox" id="checkBox" name="checkBox" /><br />
+          <br />
 
+          <input type="submit" value="Submit" />
+      </form>
+  </div>
+
+  <div>
+      <h2 style="text-align: center;">Challenge 4: Replicate Google Search Page</h2>
+
+      <div class="googleBox">
+          <p class="gGreyer">About 3,400,000,000 results (0.86 seconds)</p>
+          <br />
+
+          <p class="gPara">https://www.colorado.edu<span class="gGreyer"> > atlas</span></p>
+          <p class="gTitle"><a href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a></p>
+          <p class="gPara"><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
+
+          <div id="wrap">
+              <div id="left_col">
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a></p>
+                  <p class="gPara">Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
+
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/academics">Academics</a></p>
+                  <p class="gPara">Granted through the College of Engineering and Applied ...</p>
+
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/faculty">Faculty</a></p>
+                  <p class="gPara">Lecturer, co-chair Board of Advisors &#9679; DESIGN, AR/VR ...</p>
+
+                  <p class="gPara"><a href="https://www.google.com/search?q=Atlas+Institute+site:colorado.edu&sa=X&ved=2ahUKEwjy14Ly_f31AhWZITQIHY8vDecQrAN6BAgjEAE&biw=814&bih=969&dpr=2">More results from colorado.edu >></a></p>
+              </div>
+
+              <div id="right_col">
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/about-atlas">About</a></p>
+                  <p class="gPara">ATLAS is an interdisciplinary institute for radical creativity and ...</p>
+
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/">Undergraduate Programs</a></p>
+                  <p class="gPara">Awarded through the College of Engineering and Applied ...</p>
+
+                  <p class="gTitle"><a href="https://www.colorado.edu/atlas/research-creative">Research + Creative</a></p>
+                  <p class="gPara">Check out ATLAS Research Showcase 2020.</p>
+              </div>
+          </div>
+
+          <p class="gPara">https://www.colorado.edu<span class="gGreyer"> > innovate > atlas-institute</span></p>
+          <p class="gTitle"><a href="https://www.colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - University of ...</a></p>
+          <p class="gPara">Resource that sponsors diverse interdisciplinary academic and research programs, challenging community members to explore, innovate, create and design well ...</p>
+          <br />
+
+          <p class="gPara">https://www.linkedin.com<span class="gGreyer"> > school > atlas-cu-boulder</span></p>
+          <p class="gTitle"><a href="https://www.linkedin.com/school/atlas-cu-boulder/">ATLAS Institute at CU Boulder Employees, Location, Alumni</a></p>
+          <p class="gPara">ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality. &#9679; <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+          <br />
+
+          <p class="gPara">https://www.typemoon.fandom.com<span class="gGreyer"> > wiki > Atlas</span></p>
+          <p class="gTitle"><a href="https://typemoon.fandom.com/wiki/Atlas">ATLAS Institute | TYPE-MOON Wiki | Fandom</a></p>
+          <p class="gPara">It is an <strong>institute</strong> focused on the study and development of alchemy, but its members broke off from the mainstream modern practice of alchemy that originated in ...</p>
+          <p class="gPara"><a href="https://www.colorado.edu">External Relationships &#9679; Alchemist of Atlas &#9679; Activities &#9679; Headquarters</a></p>
+          <br />
+
+          <p class="gPara">https://www.internationalaffairshouse.org</p>
+          <p class="gTitle"><a href="https://www.internationalaffairshouse.org/">ATLAS Institute for International Affairs: Home</a></p>
+          <p class="gPara"><strong>Atlas Institute</strong> for International Affairs - The Harmony of Opposite Tensions. ...<strong>Atlas Institute</strong>. The World's Leading Open-Access Think-Tank and Publisher ...</p>
+      </div>
+  </div>
+  <div>
+      <h2 style="text-align: center;">Challenge 5: Accessibility Concerns</h2>
+      <p>My concerns are centered mainly around the chessboard, the method by which is was constructed was didnt use any tags the screen reader could interpret as a chessboard and I did not label it as such within the table itself. I would also be concerned that a screen reader would not be able to correctly label the unicode chess pieces. Then there's the issue of the chessboard being contained entirely within a table which we already understand is not ideal for screen readers becuase of how they are parsed. To fix this there would probably have to be a better tagging and labeling system for the chessboard as well as reorganizing it into a form that isn't based on a table and instead using CSS and JS to make it dynamic. </p>
+  </div>
 </body>
+
 
 </html>
