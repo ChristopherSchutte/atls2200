@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ATLS 2200</title>
+    <link rel="shortcut icon" type="image/jpg" href="Assets2200/Favicon.png"/>
+
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+
+        table tr td {
+            width: 60px;
+            height: 60px;
+            border: solid #000 1px;
+            color: grey;
+            font-size: 50px;
+            text-align: center;
+        }
+        table tr:nth-child(odd) td:nth-child(even) {
+            background: #000;
+        }
+        table tr:nth-child(even) td:nth-child(odd) {
+            background: #000;
+        }
+      </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="./index.html">Home (Assignment 2)</a></li>
+    <li><a href="./assignment1.html">Assignment 1</a></li>
+    <li><a href="./assignment3.html">Assignment 3</a></li>
+    <li><a class="active" href="./assignment4.html">Assignment 4</a></li>
+    <li><a href="./assignment5.html">Assignment 5</a></li>
+  </ul>
+
+  <div>
+    <h2 style="text-align:center">Challenge 2: Build a Chessboard</h2>
+        <table>
+            <tr>
+                <td>&#9820;</td>
+                <td>&#9816;</td>
+                <td>&#9815;</td>
+                <td>&#9813;</td>
+                <td>&#9812;</td>
+                <td>&#9815;</td>
+                <td>&#9816;</td>
+                <td>&#9820;</td>
+            </tr>
+                <tr>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+                <td>&#9817;</td>
+            </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                <tr>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+                <td>&#9823;</td>
+            </tr>
+                <tr>
+                <td>&#9820;</td>
+                <td>&#9822;</td>
+                <td>&#9821;</td>
+                <td>&#9819;</td>
+                <td>&#9818;</td>
+                <td>&#9821;</td>
+                <td>&#9822;</td>
+                <td>&#9820;</td>
+            </tr>
+        </table>
+</div>
+<br>
+
+<div>
+    <h2 style="text-align:center;">Challenge 3: Create a Form</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+
+        <label for="mname">Middle name:</label><br>
+        <input type="text" id="mname" name="mname" value="Joseph"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+</body>
+
+</html>
