@@ -4,10 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "Open Index",
             "file": "/Users/christopherschutte/Documents/GitHub/atls2200/index.html"
         }
     ]
