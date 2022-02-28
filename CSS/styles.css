@@ -1,6 +1,6 @@
 body {
     font-family: Proxima Nova;
-    background-color: #0F0824;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -10,7 +10,7 @@ h1 {
     line-height: 78px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
     line-height: 58px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h3 {
@@ -30,7 +30,7 @@ h3 {
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h4 {
@@ -40,7 +40,7 @@ h4 {
     line-height: 37px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h5 {
@@ -50,7 +50,7 @@ h5 {
     line-height: 29px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 h6 {
@@ -60,7 +60,7 @@ h6 {
     line-height: 22px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 p {
@@ -70,7 +70,7 @@ p {
     line-height: 17px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 a:link {
