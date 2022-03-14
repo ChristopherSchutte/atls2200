@@ -7,42 +7,123 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
     <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+    <script type="text/javascript" src="./JS/functions.js"></script>
+
+    <script>
+    function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
 
     <title>Homepage</title>
 </head>
 
 <body>
-    
-    <ul>
-        <li>
-            <a class='navLink' href="./index.html">Home</a>
-        </li>
-        <li>
-            <a class='navLink' href="./assignment1.html">Contact</a>
-        </li>
-        <li>
-            <a class='navLink' href="./assignment3.html">Projects</a>
-        </li>
-        <li>
-            <a class='navLink' href="./assignment4.html">Resume</a>
-    </ul>
+    <div class="navbar">
+        <div class="navContainer">
 
-    <div class='container'>
-        <div class='img-col'>
-            <img src="Assets2200/pictureOfMe.png" alt="Picture of Me">
-        </div>
+            <div>
+                <div id="menu">
+                    <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                    <nav class="nav" id="nav">
+                        <ul>
+                            <li><a id="currentPage" href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
+            </div> 
 
-        <div class='text-col'>
-            <h2>Hello!</h2>
-            <h6>My name is Christopher Schutte but you can call me Chris, I use he/him/his pronouns and I'm an Information Science major and CTD in my 5th year.</h6>
+                <h5>Christopher Schutte</h5>
 
-            <h6>My main goals for this course are to improve my web design skills, I've used CSS, JS, and HTML before but never in a way that was design oriented.</h6>
-
-            <h6><a href='https://www.linkedin.com/in/christopher-schutte-193613b2/'>Link to my Linkedin</a></h6>
-
-
+                <div>
+                    <img class="logo" src="Assets2200/Favicon.png">
+                </div>
         </div>
     </div>
+
+    <div class="largeNavbar">
+        <div class="navContainer">
+            <a href="index.html"><img class="fullLogo" src="Assets2200/fullScreenLogo.png"></a>
+
+            <div class="largeCenter">
+                <div class="pageLinks">
+                    <a id="currentPage" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="largeMenuBar"></div>
+            </div>
+            
+            <div></div>
+        </div>
+    </div>
+
+
+    <div class='centerBoxSingle'>
+        <div class='leftText'>
+            <h2>Hello!</h2>
+            <br>
+            <h2>My name is Christopher Schutte but you can call me Chris.</h2>
+            <br>
+            <h2>Currently, I am a senior in the <a href="https://www.colorado.edu/cmci/infoscience"><span>Information Science Program</span></a> at CU Boulder.</h2>
+            <br>
+            <h2>If you're looking for someone who knows:</h2>
+        </div>
+    </div>
+    
+
+    <br>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
 
 </body>
 </html>

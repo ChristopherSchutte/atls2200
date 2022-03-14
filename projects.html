@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+    <script type="text/javascript" src="./JS/functions.js"></script>
+
+    <script>
+    function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+
+    <title>Homepage</title>
 </head>
+
 <body>
-    
+    <div class="navbar">
+        <div class="navContainer">
+
+            <div>
+                <div id="menu">
+                    <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                    <nav class="nav" id="nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a id="currentPage" href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
+            </div> 
+
+                <h5>Christopher Schutte</h5>
+
+                <div>
+                    <img class="logo" src="Assets2200/Favicon.png">
+                </div>
+        </div>
+    </div>
+
+    <div class="largeNavbar">
+        <div class="navContainer">
+            <a href="index.html"><img class="fullLogo" src="Assets2200/fullScreenLogo.png"></a>
+
+            <div class="largeCenter">
+                <div class="pageLinks">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a id="currentPage" href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="largeMenuBar"></div>
+            </div>
+            
+            <div></div>
+        </div>
+    </div>
 </body>
 </html>
