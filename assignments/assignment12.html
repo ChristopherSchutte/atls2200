@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
+        <script defer src="../JS/quote.js"></script>
+
+        <title>Assignment 12</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="navContainer">
+                <div>
+                    <div id="menu">
+                        <div id="menu-bar" onclick="menuOnClick()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div>
+                        <nav class="nav" id="nav">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../about.html">About</a></li>
+                                <li><a href="../projects.html">Projects</a></li>
+                                <li><a href="../contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu-bg" id="menu-bg"></div>
+                </div>
+
+                <h5>Christopher Schutte</h5>
+
+                <div>
+                    <img class="logo" src="../Assets2200/Favicon.png" alt="logo" />
+                </div>
+            </div>
+        </div>
+
+        <div class="largeNavbar">
+            <div class="navContainer">
+                <a href="../index.html"><img class="fullLogo" src="../Assets2200/fullScreenLogo.png" alt="logo" /></a>
+
+                <div class="largeCenter">
+                    <div class="pageLinks">
+                        <a href="../index.html">Home</a>
+                        <a href="../about.html">About</a>
+                        <a href="../projects.html">Projects</a>
+                        <a href="../contact.html">Contact</a>
+                    </div>
+                    <div class="largeMenuBar"></div>
+                </div>
+
+                <div></div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+
+        <div class="app">
+            <header>Famous Quote Generator</header>
+            <section class="quotes">
+              <div class="quote-text" id="js-quote-text"></div>
+              <div class="quote-text" id="js-quote-author"></div>
+            </section>
+            <section class="controls">
+              <button class="glow-on-hover" type="button" id="js-new-quote">
+                Generate a new famous quote!
+              </button>
+            </section>
+        </div>
+
+        <div class="centerFlexRowsLessBottom">
+            <p>To expand the quote generator I was able to impliment a more complex API that requires a series of headers to output quotes, and in doing so I was able to also pull for information for the quote. For this task I chose to use the author as well within the quote. I also styled the quote generator for my website using my existing CSS (with some minor tweaks, and was able to impliment a really cool button into the quote generator that suprisingly only relies on a BUNCH of CSS to function.</p>
+        </div>
+
+    </body>
+</html>

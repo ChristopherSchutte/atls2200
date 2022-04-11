@@ -5,12 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+    },
+        
 
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open Index",
-            "file": "/Users/christopherschutte/Documents/GitHub/atls2200/index.html"
+            "file": "/Users/christopherschutte/Documents/GitHub/atls2200/assignments/assignment12.html"
         }
     ]
 }
