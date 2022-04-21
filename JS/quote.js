@@ -12,7 +12,7 @@ async function getQuote(){
             method: 'GET',
             headers: {
                 'X-RapidAPI-Host': 'andruxnet-random-famous-quotes.p.rapidapi.com',
-                'X-RapidAPI-Key': '3501f53480mshdf8c7f69f0b833ep1df4c5jsn68aef178fab5'
+                'X-RapidAPI-Key': //deleted after assignemnt was graded
             }
         };
     
