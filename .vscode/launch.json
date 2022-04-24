@@ -18,7 +18,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open Index",
-            "file": "/Users/christopherschutte/Documents/GitHub/atls2200/assignments/week14/week14-demo.html"
+            "file": "/Users/christopherschutte/Documents/GitHub/atls2200/assignments/assignment14/assignment14.html"
         }
     ]
 }
