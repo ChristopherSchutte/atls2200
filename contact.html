@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-    <script src="./JS/functions.js"></script>
+    <link rel="icon" type="image/x-icon" href="./Assets2200/Favicon.png">
 
-    <title>Contact</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/socialMediaIcons.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/contactForm.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/styleRebuild.css">
+    
+
+    <script defer src="./JS/functions.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>Home</title>
 </head>
 
 <body>
@@ -60,30 +70,38 @@
             <div></div>
         </div>
     </div>
+    <div class="spacer"></div>
 
-    <div class="container">  
-        <form id="contact" method="post">
-          <h3>Lets get in touch!</h3>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-        </form>
-      </div>
+    <header>Contact Me</header>
+
+    <form id="form" action="https://formsubmit.co/schutte_christopher@yahoo.com" method='POST' class="topBefore">
+      <input id="name" type="text" placeholder="Name">
+      <input id="email" type="text" placeholder="Email">
+      <textarea id="message" type="text" placeholder="Message"></textarea>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+      <div class='footer'>
+        <ul class="iconWrapper">
+            <a href='https://www.linkedin.com/in/christopher-schutte-193613b2/'>
+                <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                </li>
+            </a>
+            <a href='https://github.com/ChristopherSchutte/atls2200'>
+                <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><ion-icon name="logo-github"></ion-icon></span>
+                </li>
+            </a>
+          </ul>
+    </div>
+
+
 
 
 </body>

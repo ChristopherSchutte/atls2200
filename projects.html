@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/x-icon" href="./Assets2200/Favicon.png">
+
     <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-    <script src="./JS/functions.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/socialMediaIcons.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/styleRebuild.css">
+
+    <script defer src="./JS/functions.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <title>Projects</title>
 </head>
@@ -61,43 +69,61 @@
         </div>
     </div>
 
-    <div class="spacer"></div>
+    <div class="spacer" id="blackBackground"></div>
 
-    <div class="centerFlexRows" id="blackBackground">
-        <div class="flexTitle">
-            <h1 id="whiteTextColor">Data Visualization</h1>
-        </div>
+    <div class='flexSquare' id='blackBackground'>
+        <h1 id='blackBackground'>Spotify Visualizations in Altair</h1>
 
-        <div class="centerFlexColumns">
-            <img class="flexImg" src="./Assets2200/portfolioStuff/betterSpotifyVis.png" alt="Picture of a visualization of spotify data that bins song tempo with dancability to show a strong correlation">
-            <div class="centerFlexRows">
-                <div class="leftFlexItem">
-                    <p id="whiteTextColor" >Made for an Information Visualization class I took in the spring of 2022. The data is from this Kaggle page and all visuals were made with Altair and the data was preprocessed with Pandas in Python.</p>
-                </div>
+        <div class='pictureAndText' id='sidePaddingForProjectsBlack'>
+            <img class="flexImg" id='smallLeftPadding' src="./Assets2200/portfolioStuff/betterSpotifyVis.png" alt="Picture of a visualization of spotify data that bins song tempo with dancability to show a strong correlation">
+
+            <div class='textRows' id='smallRightPadding'>
+                <p id='blackBackground'>Made for an Information Visualization class I took in the spring of 2022. The data is from this <a href='https://www.kaggle.com/datasets/akiboy96/spotify-dataset'>Kaggle page</a> and all visuals were made with Altair and the data was preprocessed with Pandas in Python.</p>
             </div>
         </div>
     </div>
 
-    <div class="centerFlexRows" id="blackBackground">
-        <div class="centerFlexColumns">
-            <div class="centerFlexRows">
-                <div class="leftFlexItem">
-                    <p id="whiteTextColor" >I used the basis of that first visual to createthe next 4, these 4 are an interactive setwhich share axis with each other that allowfor a deeper analysis then the visualization would provide on its own. </p>
-                </div>
-            </div>
-            <img class="flexImg" src="./Assets2200/portfolioStuff/allfour.png" alt="A picture of 4 conncatonated visuals about the spotify data">
+    <div class="smolSpacer" id="blackBackground"></div>
+
+    <div class='pictureAndText' id='sidePaddingForProjectsBlack'>
+        <div class='textRows' id='smallRightPadding'>
+            <p id='blackBackground'>I used the basis of that first visual to create the next 4, these 4 are an interactive setwhich share axis with each other that allowfor a deeper analysis then the visualization would provide on its own. </p>
         </div>
+
+        <iframe width="140%" height="400px" src="https://www.youtube.com/embed/VhDVsQ02IFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="centerFlexRows" id="beigeBackground">
-        <div class="flexTitle">
-            <h1>Swivl Chatbot Data Infographic and Analysis</h1>
-        </div>
+    <div class="smolSpacer" id="blackBackground"></div>
+
+    <div class='flexSquare' id="beigeBackground">
+        <h1>Swivl Chatbot Data Infographic and Analysis</h1>
 
         <img class="fullPageImg" src="./Assets2200/portfolioStuff/swivlpg1.png" alt="Swivl report page 1">
         <img class="fullPageImg" src="./Assets2200/portfolioStuff/swivlpg2.png" alt="Swivl report page 2">
         <img class="fullPageImg" src="./Assets2200/portfolioStuff/swivlpg3.png" alt="Swivl report page 3">
         <img class="fullPageImg" src="./Assets2200/portfolioStuff/swivlpg4.png" alt="Swivl report page 4">
+        
     </div>
+
+    <div class='footer'>
+        <ul class="iconWrapper">
+            <a href='https://www.linkedin.com/in/christopher-schutte-193613b2/'>
+                <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                </li>
+            </a>
+            <a href='https://github.com/ChristopherSchutte/atls2200'>
+                <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><ion-icon name="logo-github"></ion-icon></span>
+                </li>
+            </a>
+          </ul>
+    </div>
+
+
+
+
 </body>
 </html>

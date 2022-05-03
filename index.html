@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-    <script src="./JS/functions.js"></script>
+    <link rel="icon" type="image/x-icon" href="./Assets2200/Favicon.png">
 
-    <title>Homepage</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/socialMediaIcons.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/styleRebuild.css">
+
+    <script defer src="./JS/functions.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>Home</title>
 </head>
 
 <body>
@@ -35,7 +43,7 @@
                 <div class="menu-bg" id="menu-bg"></div>
             </div> 
 
-                <h5>Christopher Schutte</h5>
+                <h2>Christopher Schutte</h2>
 
                 <div>
                     <img class="logo" src="Assets2200/Favicon.png" alt="logo">
@@ -61,95 +69,71 @@
         </div>
     </div>
 
-    <div class="centerFlexRowsTOP">
-        <div class="leftFlexItem">
-            <h2>Hello!</h2>
-        </div>
-        <div class="leftFlexItem">
-            <h2>My name is Christopher Schutte but you can call me Chris</h2>
-        </div>
-        <div class="leftFlexItem">
-            <h2>Currently, I am a senior in the <a href="https://www.colorado.edu/cmci/infoscience"><span>Information Science Program</span></a> at CU Boulder</h2>
-        </div>
-        <div class="leftFlexItem">
-            <h2>If you're looking for someone who knows:</h2>
-        </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class='landingPageText'>
+        <h2>Hello!</h2>
+        <h2>My name is Christopher Schutte but you can call me Chris</h2>
+        <h2>Currently, I am a senior in the <a href="https://www.colorado.edu/cmci/infoscience"><span>Information Science Program</span></a> at CU Boulder</h2>
+        <h2>Here's what I'm currently working on:</h2>
     </div>
 
-    <div class="centerFlexRows" id="blackBackground">
-        <div class="flexTitle">
-            <h1 id="whiteTextColor">Data Visualization</h1>
-        </div>
+    <div class='flexSquare' id='blackBackground'>
+        <h1 id='blackBackground'>Spotify Visualizations in Altair</h1>
 
-        <div class="centerFlexColumns">
-            
+        <div class='pictureAndText' id='blackBackground'>
             <img class="flexImg" src="./Assets2200/portfolioStuff/betterSpotifyVis.png" alt="Picture of a visualization of spotify data that bins song tempo with dancability to show a strong correlation">
-            
-            <div class="centerFlexRows">
-                <div class="leftFlexItem">
-                    <h4 id="whiteTextColor" >Made in 2022</h4>
-                </div>
-                <div id="blackBackground" class="leftFlexItem">
-                    <h4 id="whiteTextColor" >With Python and Altair</h4>
-                </div>
-                <div id="blackBackground" class="leftFlexItem">
-                    <h4 id="whiteTextColor" >With Spotify Data from Kaggle</h4>
-                </div>
+
+            <div class='textRows' id='blackBackground'>
+                <h4 id='blackBackground'>- Made in 2022 for Information Visualization</h4>
+                <h4 id='blackBackground'>- With Python, Pandas, and Altair</h4>
+                <h4 id='blackBackground'>- Using Binning and Heat Mapping</h4>
+                <h4 id='blackBackground'>- With Spotify Data from <a href='https://www.kaggle.com/datasets/akiboy96/spotify-dataset'>Kaggle</a></h4>
             </div>
         </div>
     </div>
 
+    <div class='flexSquare' id="beigeBackground">
+        <h1>Software and Coding Languages</h1>
 
+        <div class='pictureAndText'>
+            <img class="flexImg" id='iconPaddingLeft' src="./Assets2200/portfolioStuff/software.png" alt="The logos for Illustrator, Photoshop, XD, Tableau, Cytoscape, and Monday.com">
 
-    <div class="centerFlexRows" id="beigeBackground">
-        <div class="flexTitle">
-            <h1>Data Analytics</h1>
-        </div>
-
-        <div class="centerFlexColumns">
-
-            <div class="centerFlexRows">
-                <div class="leftFlexItem">
-                    <h4>Made in 2021</h4>
-                </div>
-                <div class="leftFlexItem">
-                    <h4>Tens of Thousands of Text Bot Queries</h4>
-                </div>
-                <div class="leftFlexItem">
-                    <h4>Analyzed with Python</h4>
-                </div>
-                <div class="leftFlexItem">
-                    <h4>Using Pandas and Regex</h4>
-                </div>
-                <div class="leftFlexItem">
-                    <h4>Visualized in Altair</h4>
-                </div>
-            </div>
-            
-            <img class="flexImg" src="./Assets2200/portfolioStuff/swivl.png" alt="A chart showing the accuracy thousands of chatbot requests by category">
+            <img class="flexImg" id='iconPaddingRight' src="./Assets2200/portfolioStuff/coding.png" alt="The logos for Python, C++, SQLite, HTML, JS, and CSS">
         </div>
     </div>
 
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 
-
-    <div class="centerFlexRows" id="beigeBackground">
-        <div class="flexTitle">
-            <h1>Software and Coding Languages</h1>
-        </div>
-
-        <div class="centerFlexColumns">
-            
-            <img class="flexImg" src="./Assets2200/portfolioStuff/software.png" alt="The logos for Illustrator, Photoshop, XD, Tableau, Cytoscape, and Monday.com">
-
-            <img class="flexImg" src="./Assets2200/portfolioStuff/coding.png" alt="The logos for Python, C++, SQLite, HTML, JS, and CSS">
-    
-        </div>
+    <div class='flexSquare'>
+        <a href='./contact.html'>
+            <button class="glow-on-hover" type="button">
+                <h1 id="whiteText">Let's Get in Contact!</h1>
+            </button>
+        </a>
     </div>
 
-    <div class="centerFlexRowsMiddle">
-        <div class="flexTitle">
-            <h1>Then Lets Get In Contact!</h1>
-        </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+    <div class='footer'>
+        <ul class="iconWrapper">
+            <a href='https://www.linkedin.com/in/christopher-schutte-193613b2/'>
+                <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                </li>
+            </a>
+            <a href='https://github.com/ChristopherSchutte/atls2200'>
+                <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><ion-icon name="logo-github"></ion-icon></span>
+                </li>
+            </a>
+          </ul>
     </div>
+
 </body>
 </html>

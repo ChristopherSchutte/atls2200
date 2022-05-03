@@ -5,10 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="icon" type="image/x-icon" href="./Assets2200/Favicon.png">
+
     <link rel="stylesheet" href="https://use.typekit.net/zgy6fen.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
-    <script src="./JS/functions.js"></script>
-    
+    <link rel="stylesheet" type="text/css" href="./CSS/socialMediaIcons.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/navBar.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/styleRebuild.css">
+
+    <script defer src="./JS/functions.js"></script>
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <title>About Me</title>
 </head>
 
@@ -63,25 +71,40 @@
 
     <div class="spacer"></div>
 
-    <div class="aboutMePage">
-        <div class="flexTitle">
-            <h1>A Little About Me</h1>
-        </div>
+    <div class='flexSquare'>
+        <h1>A Little About Me...</h1>
+        
+        <div class='pictureAndText' id='sidePaddingForPandT'>
+            <img class="portrait" src="./Assets2200/portfolioStuff/ProfilePic.JPG" alt="A picture of me">
 
-        <div class="centerFlexColumns">
-            
-            <img class="flexImg" src="./Assets2200/portfolioStuff/ProfilePic.JPG" alt="A picture of me">
-            
-            <div class="centerFlexRows">
-                <div class="leftFlexItem">
-                    <p>I am a natural people person, I love managing projects, and analyzing data.
-                        <br><br>
-                        Currently in my forth year studying Information Science at the University of Colorado Boulder. I've managed a small business during a pandemic, taught classes of over 20 people, and have lead a project almost every semester I've been in school. In addition, I really enjoy public speaking and presenting, and will gladly take on the task of accurately explaining complicated topics to those unfamiliar with them. At nearly every job that I have, I love to be the one to fix long-standing and difficult problems and take pride in the tidiness of my workspace.
-                        <br><br>
-                        I believe I'd be an asset to any workplace as my problem solving, communication, and team-oriented view make a great at solving complicated issues.</p>
-                </div>
+            <div class='textRows'>
+                <p>I am a natural people person, I love managing projects, and analyzing data.
+                <br><br>
+                Currently in my senior year studying Information Science at the University of Colorado Boulder. I've managed a small business during a pandemic, taught classes of over 20 people, and have lead a project almost every semester I've been in school. In addition, I really enjoy public speaking and presenting, and will gladly take on the task of accurately explaining complicated topics to those unfamiliar with them. At nearly every job that I have, I love to be the one to fix long-standing and difficult problems and take pride in the tidiness of my workspace.
+                <br><br>
+                I believe I'd be an asset to any workplace as my problem solving, communication, and team-oriented view make a great at solving complicated issues.</p>
             </div>
         </div>
     </div>
+
+    <div class="smolSpacer"></div>
+
+    <div class='footer'>
+        <ul class="iconWrapper">
+            <a href='https://www.linkedin.com/in/christopher-schutte-193613b2/'>
+                <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                </li>
+            </a>
+            <a href='https://github.com/ChristopherSchutte/atls2200'>
+                <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><ion-icon name="logo-github"></ion-icon></span>
+                </li>
+            </a>
+          </ul>
+    </div>
+
 </body>
 </html>

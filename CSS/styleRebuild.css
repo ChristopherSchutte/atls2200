@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: new-order, sans-serif;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75vw;
+    line-height: 7.5vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 5vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75vw;
+    line-height: 3vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+h4 {
+    font-style: normal;
+    font-size: 1.75vw;
+    line-height: 3vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+}
+
+@media (max-width: 1000px) {
+    h1, h2 {
+        font-size: 3.5rem;
+        line-height: 7rem;
+    }
+
+    h3, h4 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    h5, h6 {
+        font-size: 2.75rem;
+        line-height: 4rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+.spacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 75px;
+}
+
+.smolSpacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 35px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+  }
+
+.landingPageText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding: 30px 0 80px 15%;
+}
+
+.flexSquare {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.pictureAndText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 25px 0 25px 0;
+}
+
+#sidePaddingForPandT {
+    padding: 25px 10% 25px 10%;
+}
+
+#sidePaddingForProjectsBlack {
+    padding: 25px 10% 25px 10%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sidePaddingForProjectsBeige {
+    padding: 25px 10% 25px 10%;
+    background-color: #FFF5E2;
+}
+
+@media (max-width: 1000px) {
+    .pictureAndText {
+        flex-direction: column;
+    }
+}
+
+.textRows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-content: flex-start;
+    max-width: 45ch;
+    padding: 0 0 0 5%;
+}
+
+@media (max-width: 1000px) {
+    .textRows {
+        padding: 5% 0 0 5%;
+        max-width: 80ch;
+    }
+}
+
+#blackBackground {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#beigeBackground {
+    background-color: #FFF5E2;
+}
+
+#iconPaddingLeft {
+    padding: 0 0 0 10%;
+}
+#iconPaddingRight {
+    padding: 0 10% 0 0;
+}
+
+#smallLeftPadding{
+    padding: 0 2.5% 0 5%;
+}
+
+#smallRightPadding{
+    padding: 0 5% 0 2.5%;
+}
+
+@media (max-width: 1000px) {
+
+    #iconPaddingLeft {
+        padding: 0 0 0 0;
+    }
+
+    #iconPaddingRight {
+        padding: 0 0 0 0;
+        position: relative;
+        left: 7.5%;
+    }
+
+    #smallLeftPadding{
+        margin-bottom: 35px;
+    }
+    
+    #smallRightPadding{
+        margin-bottom: 35px;
+    }
+
+}
+
+.flexImg {
+    width: 90vw;
+    max-width: 750px;
+    min-width: 480px;
+}
+
+.portrait {
+    width: 45vw;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.fullPageImg {
+    padding: 5%;
+    width: 90vw;
+}
+
+@media (max-width: 1000px) {
+
+    .flexImg {
+        width: 80vw;
+        max-width: 600px;
+        min-width: 400px;
+    }
+}
+
+
+
+
+
