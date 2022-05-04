@@ -45,6 +45,7 @@ function drawNewChart(newData){
 }
 
 function addNode(newData, startNode, endNode, nodeWeight) {
+    nodeWeight = parseInt(nodeWeight)
     console.log(`Node added with ${startNode}, ${endNode}, ${nodeWeight}`)
     newData.addRow([startNode, endNode, nodeWeight])
     google.charts.setOnLoadCallback(drawNewChart(newData));
