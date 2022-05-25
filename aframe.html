@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 3 WIP</title>
+    <meta name="description" content="Project 3 WIP" />
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item
+          id="astro"
+          src="./aFrameAssets/astronaut/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      <a-sky
+        src="./aFrameAssets/waffle.jpg"
+      ></a-sky>
+
+      <a-box
+        src="./aFrameAssets/waffle.jpg"
+        position="-2 0.5 -4"
+      ></a-box>
+      <a-sphere
+        src="./aFrameAssets/skyBox1.jpg"
+        radius="0.5"
+        position="0 0.5 -3"
+      ></a-sphere>
+      <a-cone
+        src="./aFrameAssets/waffle.jpg"
+        height="2"
+        radius-top="0.1"
+        position="0 1 -6"
+      ></a-cone>
+      <a-box
+        src="./aFrameAssets/waffle.jpg"
+        position="2 0.5 -4"
+      ></a-box>
+
+      <a-entity
+        gltf-model="#astro"
+      ></a-entity>
+
+      <a-text
+        value="Oh my god... its all cone..."
+        scale="2 2 1"
+        position="-2 2 -4"
+      ></a-text>
+      <a-text
+        value="Always has been..."
+        scale="2 2 1"
+        position="-2 2 10"
+      ></a-text>
+
+      <a-plane
+        src="./aFrameAssets/waffle.jpg"
+        rotation="-90 0 0"
+        height="100"
+        width="100"
+      ></a-plane>
+
+      <a-light type="ambient" color="#445451"></a-light>
+      <a-light type="point" intensity="2" position="2 4 4"></a-light>
+    </a-scene>
+  </body>
+</html>
