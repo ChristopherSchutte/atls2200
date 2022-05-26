@@ -6,44 +6,220 @@
     <script src="./JS/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene fog="type: linear; color: #AAA">
       <a-assets>
         <a-asset-item
-          id="astro"
-          src="./aFrameAssets/astronaut/scene.gltf"
+          id="ob"
+          src="./aFrameAssets/obelisk/scene.gltf"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="king"
+          src="./aFrameAssets/kingInYellow/scene.gltf"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="theTrueKing"
+          src="./aFrameAssets/bruh/scene.gltf"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="cth"
+          src="./aFrameAssets/cthulhu/scene.gltf"
         ></a-asset-item>
       </a-assets>
 
       <a-sky
-        src="./aFrameAssets/waffle.jpg"
+        src="./aFrameAssets/scaryCloub.jpeg"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 180000; easing: linear"
       ></a-sky>
 
+      <!--right pillars-->
+
       <a-entity
-        gltf-model="#astro"
-        position="0 0 9"
-        scale="0.05 0.05 0.05"
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -20"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -40"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -60"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -80"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -100"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="50 40 -120"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <!--left pillars-->
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -20"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -40"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -60"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -80"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -100"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="-50 40 -120"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <!--center pillars-->
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -20"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -40"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -60"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -80"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -100"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#ob"
+        rotation="-180 0 0"
+        position="0 40 -120"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#king"
+        rotation="0 0 0"
+        position="0 30 -175"
+        scale="3 3 3"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#theTrueKing"
+        rotation="0 -180 0"
+        position="-10 -25 0"
+        scale="40 40 40"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#theTrueKing"
+        rotation="0 0 0"
+        position="10 -25 0"
+        scale="40 40 40"
+      ></a-entity>
+
+      <a-entity
+        gltf-model="#cth"
+        rotation="20 -180 0"
+        position="0 300 335"
+        scale="1.5 1.5 1.5"
       ></a-entity>
 
       <a-text
-        value="Oh my god... its all cone..."
-        scale="2 2 1"
-        position="-2 2 -4"
+        value="Go forth child... seek him..."
+        scale="1 1 1"
+        position="-2 2 -5"
       ></a-text>
+
       <a-text
-        value="Always has been..."
-        scale="2 2 1"
-        position="-2 2 10"
+        value="No not him, turn around..."
+        scale="1 1 1"
+        position="-2 2 -140"
+      ></a-text>
+
+      <a-text
+        value="HIM"
+        rotation="0 -180 0"
+        scale="5 5 5"
+        position="-2 5 -120"
       ></a-text>
 
       <a-plane
-        src="./aFrameAssets/waffle.jpg"
+        src="./aFrameAssets/stoneFloor.jpeg"
         rotation="-90 0 0"
-        height="500"
-        width="500"
+        height="1000"
+        width="1000"
       ></a-plane>
 
-      <a-light type="ambient" color="#445451"></a-light>
-      <a-light type="point" intensity="2" position="2 4 4"></a-light>
     </a-scene>
   </body>
 </html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	The King In Yellow
+* source:	https://sketchfab.com/3d-models/the-king-in-yellow-bfdc6cd74b314913be944a7934796ad8
+* author:	CinekR9 (https://sketchfab.com/CinekR9)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The King In Yellow" (https://sketchfab.com/3d-models/the-king-in-yellow-bfdc6cd74b314913be944a7934796ad8) by CinekR9 (https://sketchfab.com/CinekR9) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

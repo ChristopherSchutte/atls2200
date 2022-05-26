@@ -1,0 +1,11 @@
+Model Information:
+* title:	Obelisk Game Asset
+* source:	https://sketchfab.com/3d-models/obelisk-game-asset-7c8d821fa62a4ee2aca0b8e2d65616a1
+* author:	Galakpisos (https://sketchfab.com/Galakpisos)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Obelisk Game Asset" (https://sketchfab.com/3d-models/obelisk-game-asset-7c8d821fa62a4ee2aca0b8e2d65616a1) by Galakpisos (https://sketchfab.com/Galakpisos) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

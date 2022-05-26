@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cthulhu
+* source:	https://sketchfab.com/3d-models/cthulhu-cda6bb56a15c43b6aa695147f1db35ba
+* author:	damian9452 (https://sketchfab.com/damian9452)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cthulhu" (https://sketchfab.com/3d-models/cthulhu-cda6bb56a15c43b6aa695147f1db35ba) by damian9452 (https://sketchfab.com/damian9452) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

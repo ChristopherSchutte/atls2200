@@ -1,0 +1,11 @@
+Model Information:
+* title:	Edzna - Maya Temple
+* source:	https://sketchfab.com/3d-models/edzna-maya-temple-65181c6dabc2414891778dbac7c5d291
+* author:	dammne (https://sketchfab.com/dammne)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Edzna - Maya Temple" (https://sketchfab.com/3d-models/edzna-maya-temple-65181c6dabc2414891778dbac7c5d291) by dammne (https://sketchfab.com/dammne) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
